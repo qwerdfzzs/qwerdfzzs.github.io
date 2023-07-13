@@ -4,7 +4,7 @@
 title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "高近书"
-jobtitle: "求职意向" #可空不显示
+#jobtitle: "求职意向" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
@@ -15,7 +15,7 @@ contact: #联系方式连接等3~5行
 - text: "18118956063"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
+- text: "https://qwerdfzzs.github.io/"
   href: 'http://your-website.com'
   icon: 'icons/web.svg'
 - text: "qwerdfzzs"
@@ -33,7 +33,7 @@ main: #简历主要内容，
   - title: 西北工业大学
     duration: "2021年9月 ----"
     sub: 本科
-    detail: 专业或者简短说明
+    detail: 软件工程
   - title: Your University
     duration: Aug 2007 - Jun 2011
     sub: Ut enim ad minim veniam
@@ -44,9 +44,10 @@ main: #简历主要内容，
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
+    - c++
+    - java
+    - c#
+    - pascal
   - title: Skill Group
     summary: Consectetur, Adipiscing, Elit
 
