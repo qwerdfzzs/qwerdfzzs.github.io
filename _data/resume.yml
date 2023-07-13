@@ -44,11 +44,12 @@ main: #简历主要内容，
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - c++
+    - java
+    - matlab
+    - c#
+  - title: 掌握技能
+    summary: 数据结构、算法设计、Unity、SQL
 
 - type: experience
   name: 经验
@@ -73,9 +74,9 @@ main: #简历主要内容，
 - type: projects
   name: Projects
   content:
-  - title: 项目名称
+  - title: 西工大项目实训成果物--冬津游艺
     duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
+    detail: 采用C#语言，unity2D团队协作完成一款类似于pvz的游戏，自主设计地图场景、组件信息、脚本逻辑、UI等，并制作答辩ppt进行汇报展示，需求分析文档、设计说明文档、操作手册、测试报告等齐全。利用github实现远程线上团队协作并发开发。
     sub: 维护者
   - title: Project Name
     summary: Projects' introduction or summary
