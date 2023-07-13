@@ -1,7 +1,7 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "简历标题"
+title: "简历--高近书"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "高近书"
 #jobtitle: "求职意向" #可空不显示
@@ -34,10 +34,10 @@ main: #简历主要内容，
     duration: "2021年9月 ----"
     sub: 本科
     detail: 软件工程
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+#  - title: Your University
+#    duration: Aug 2007 - Jun 2011
+#    sub: Ut enim ad minim veniam
+#    detail: Master Bachelor of Computer Science & Technology.
 
 - type: skills
   # name: "技能"
@@ -48,8 +48,8 @@ main: #简历主要内容，
     - java
     - c#
     - pascal
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+  - title: 擅长技术
+    summary: 数据结构、算法、SQL、Unity
 
 - type: experience
   name: 经验
