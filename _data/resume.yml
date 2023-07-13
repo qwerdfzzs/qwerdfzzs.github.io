@@ -39,8 +39,7 @@ main: #简历主要内容，
  #   sub: Ut enim ad minim veniam
  #   detail: Master Bachelor of Computer Science & Technology.
 
-- type: skills
-   name: 技能
+- type: 技能
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
