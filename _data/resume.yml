@@ -52,19 +52,19 @@ main: #简历主要内容，
   - title: 擅长技术
     summary: 数据结构、算法、SQL、Unity
 
-- type: honour
-  name: 荣誉
+- type: experience
+  name: 经验
   content:
-  - title: 第十届ICPC陕西省程序设计竞赛 
+  - title: 职位
     sub: 某某公司
     duration: "xxxx年xx月 - yyyy年yy月"
     tags:
     - 标签
-    summary: 第十届ICPC陕西省程序设计竞赛 
-    detail: 组队参加ICPC陕西省赛，团队协作，分工明确，积极讨论，获得铜牌
+    summary: 职务或者工作总结(自动折叠)
+    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
     # open: open
     #可以设置open默认展开
-  - title: 中国高校计算机大赛--团体程序设计天梯赛全国总决赛
+  - title: Job Title
     sub: Your 2nd, Inc.  
     duration: Apr 2013 - Mar 2016
     tags: 
