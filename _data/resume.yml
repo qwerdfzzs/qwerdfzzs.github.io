@@ -1,24 +1,24 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "简历标题"
+title: "简历--高近书"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
-name: "你的名字"
-jobtitle: "求职意向" #可空不显示
+name: "高近书"
+# jobtitle: "求职意向" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
+- text: "1507493974@qq.com" #文本内容
   href: 'mailto:youremail@example.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
+- text: "18118956063"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
+- text: "https://qwerdfzzs.github.io/"
   href: 'http://your-website.com'
   icon: 'icons/web.svg'
-- text: "GitHubID"
+- text: "qwerdfzzs"
   href: 'https://github.com/NewFuture'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
@@ -30,14 +30,14 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 西北工业大学
+    duration: "2021年9月 --"
+    sub: 本科
+    detail: 软件工程
+#  - title: Your University
+#    duration: Aug 2007 - Jun 2011
+ #   sub: Ut enim ad minim veniam
+ #   detail: Master Bachelor of Computer Science & Technology.
 
 - type: skills
   # name: "技能"
