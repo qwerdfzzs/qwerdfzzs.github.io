@@ -55,7 +55,7 @@ main: #简历主要内容，
 - type: honour
   name: 荣誉
   content:
-  - title: 职位
+  - title: 第十届ICPC陕西省程序设计竞赛 
     sub: 某某公司
     duration: "xxxx年xx月 - yyyy年yy月"
     tags:
@@ -113,10 +113,10 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
+#  - text: "简历脚注"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+#  - text: "Made with &hearts; by NewFuture"
+#    href: "https://github.com/NewFuture/CV/"
 
 #页面额外js脚本，如xx统计
 scripts:
