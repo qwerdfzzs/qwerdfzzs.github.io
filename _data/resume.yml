@@ -40,7 +40,7 @@ main: #简历主要内容，
  #   detail: Master Bachelor of Computer Science & Technology.
 
 - type: skills
-  # name: "技能"
+   name: 技能
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
@@ -61,7 +61,7 @@ main: #简历主要内容，
   
 
 - type: projects
-  name: Projects
+  name: 项目
   content:
   - title: 西工大项目实训成果物--冬津游艺
     detail: 采用C sharp语言，unity2D团队协作完成一款类似于pvz的游戏，担任队长。自主设计地图场景、组件信息、脚本逻辑、UI等，并制作答辩ppt进行汇报展示，需求分析文档、设计说明文档、操作手册、测试报告等齐全。利用github实现远程线上团队协作并发开发。
@@ -79,10 +79,10 @@ others: #其他列表显示
     text: " 639"
   - title: "CET6:"
     text: " 549"
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+ # - title: 列表
+  #  list:
+ #   - 第一项
+ #   - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
